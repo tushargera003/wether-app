@@ -1,0 +1,121 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v3.8.5">
+        <title>WEATHER APP</title>
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Custom styles for this template -->
+        <link href="./public/css/style.css" rel="stylesheet">
+        <style>
+            html,
+body {
+  height: 100%;
+  background-color: blue;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;  
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(186, 125, 125);
+  background-image: linear-gradient(to right, rgba(194, 46, 46, 0), rgb(102, 104, 103,1));
+} 
+
+.form-signin {
+  width: 100%;
+  max-width: 430px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle{
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.bottom{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.blue{
+    background-color:aqua;
+}
+.bottom1{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.hey{
+  border-color: blueviolet;
+  border-style: double;
+  border: 2px dashed rgb(130, 4, 247);
+  border-style:outset ;
+  height: 40px;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 5.5rem;
+  }
+}
+
+        </style>
+    </head>
+    <body class="text-center">
+        
+        <form class="form-signin blue" action="/" method="post" style="border-radius: 7%; border: 7px solid rgb(249, 248, 248);">
+            <img class="mb-3" src="https://th.bing.com/th/id/R.25084b1a79ce3d9cc8f48e1724988f51?rik=ThVuSMhAVU8GEw&riu=http%3a%2f%2freporterly.net%2fwp-content%2fuploads%2f2018%2f11%2fweather.jpg&ehk=6rm1bz7Th0y3zPn3%2fwGV2uFI2D1WVjFnfvKdnTCl53Y%3d&risl=&pid=ImgRaw&r=0" alt="" width="100%" height="200%" style="border-radius: 10%; border: 10px solid rgb(81, 174, 81);">
+
+            <h1 class="h3 mb-3 font-weight-normal" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Check the weather now</h1>
+
+            <input class="mb-3 btn-block hey" id = "cityInput" type="text" class="form-control bottom1" name="cityName" placeholder="Enter the City Name" required size="49" style="background-color: rgb(198, 227, 124);">
+
+            <button class="btn btn-primary btn-block" type="submit">Submit</button>
+            <h1 class="h3 mt-3 font-weight-normal">What are you waiting for !!!<br> check now !</h1>
+            <p class="mt-3 mb-3 text-muted">&copy; 2022 Devil Tushar</p>
+        </form>
+
+    </body>
+</html>
